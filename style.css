@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    min-height: 100%
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #353b48
+}
+
+#description {
+    margin-top: -15px;
+}
+
+#canvas {
+    padding: 10px;
+    border-radius: 20px;
+    min-height: 800px;
+    min-width: 1200px;
+    font-size: 12px;
+}
+
+#legend {
+    padding: 10px;
+    min-height: 300px;
+    min-width: 800px;
+}
+
+#legend-item {
+    border-radius: 5px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: 25px;
+    width: auto;
+}
+
+.tile:hover {
+    fill: chartreuse;
+}
